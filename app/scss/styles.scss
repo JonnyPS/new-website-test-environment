@@ -1,23 +1,10 @@
-.testing {
-  width: percentage(5/7);
+$bodyPadding: 10px;
+$grey: #aeaeae;
+
+body {
+	padding: $bodyPadding;
 }
 
-.newTest {
-	width: percentage(4/8);
-}
-
-.anotherTest {
-	width: percentage(6/9);
-}
-
-.oneMoreTime {
-	width: percentage(5/12);
-}
-
-.oneMoreTime2 {
-	width: percentage(6/12);
-}
-
-.newClass {
-	color: #000;
+h1 {
+	background-color: $grey;
 }

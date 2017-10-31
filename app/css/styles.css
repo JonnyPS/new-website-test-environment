@@ -1,17 +1,5 @@
-.testing {
-  width: 71.42857%; }
+body {
+  padding: 10px; }
 
-.newTest {
-  width: 50%; }
-
-.anotherTest {
-  width: 66.66667%; }
-
-.oneMoreTime {
-  width: 41.66667%; }
-
-.oneMoreTime2 {
-  width: 50%; }
-
-.newClass {
-  color: #000; }
+h1 {
+  background-color: #aeaeae; }
