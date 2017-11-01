@@ -5,6 +5,7 @@
 - Uses gulp to:
   - Compile SASS and dumps CSS into it's own folder
   - Reload browsers on save using BrowserSync
+- Uses Bootstrap
 
 ## Setting up the environment
 
