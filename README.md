@@ -3,7 +3,7 @@
 ## This currently includes the following features.
 
 - Uses gulp to:
-  - Compile SASS and dumps CSS into it's own folder
+  - Compile SCSS and dumps CSS into its own folder
   - Reload browsers on save using BrowserSync
 - Uses Bootstrap for a responsive framework
 
@@ -25,5 +25,5 @@ Run **npm install browser-sync --save-dev**
 
 ### Gulp Watch
 
-Run **gulp watch** in the terminal when developing. This runs browserSync, and watches for any changes to the sass.
+Run **gulp watch** in the terminal when developing. This runs browserSync, and watches for any changes to the SCSS and compiles it into regular CSS.
 The browser will refresh to render the new view upon any saved change.
