@@ -1,3 +1,47 @@
+/* Bootstrap media queries */
+/* Extra small devices (portrait phones, less than 576px) */
+$xs-devicies-max: 575px;
+/* Small devices (landscape phones, 576px and up) */
+$small-devices-min: 576px;
+$small-devices-max: 767px;
+/* Medium devices (tablets, 768px and up) */
+$medium-devices-min: 768px;
+$medium-devices-max: 991px;
+/* Large devices (desktops, 992px and up) */
+$large-devices-min: 992px;
+$large-devices-max: 1199px;
+/* Extra large devices (large desktops, 1200px and up) */
+$xl-devices-min: 1200px;
+
+
+@media (max-width: $xs-devicies-max) {
+}
+
+@media (min-width: $small-devices-min) and (max-width: $small-devices-max) {
+}
+
+@media (min-width: $medium-devices-min) and (max-width: $medium-devices-max) {
+}
+
+@media (min-width: $large-devices-min) and (max-width: $large-devices-max) {
+}
+
+@media (min-width: $xl-devices-min) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $bodyPadding: 10px;
 $grey: #aeaeae;
 
