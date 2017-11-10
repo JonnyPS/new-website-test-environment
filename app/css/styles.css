@@ -1,9 +1,6 @@
-/* Bootstrap media queries */
-/* Extra small devices (portrait phones, less than 576px) */
-/* Small devices (landscape phones, 576px and up) */
-/* Medium devices (tablets, 768px and up) */
-/* Large devices (desktops, 992px and up) */
-/* Extra large devices (large desktops, 1200px and up) */
+body {
+  padding: 10px; }
+
 /* set all headline sizes */
 /* get all headline sizes */
 .h1 {
@@ -27,19 +24,17 @@
 /* set all brand colours */
 /* get all brand colours */
 .ei-black {
-  font-size: #000; }
+  color: #000; }
 
 .ei-grey {
-  font-size: #aeaeae; }
+  color: #aeaeae; }
 
 .ei-white {
-  font-size: #fff; }
+  color: #fff; }
 
-h3 {
-  color: green; }
-
-body {
-  padding: 10px; }
-
-h1 {
-  background-color: #aeaeae; }
+/* Bootstrap media queries */
+/* Extra small devices (portrait phones, less than 576px) */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
