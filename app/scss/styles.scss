@@ -14,6 +14,41 @@ $large-devices-max: 1199px;
 $xl-devices-min: 1200px;
 
 
+
+/* set all headline sizes */
+$headlines: (
+  h1: 35px,
+  h2: 30px,
+  h3: 25px,
+  h4: 20px,
+  h5: 15px,
+  h6: 10px
+);
+
+/* get all headline sizes */
+@each $prop, $val in $headlines {
+  .#{$prop} {
+    font-size: $val;
+  }
+}
+
+/* set all brand colours */
+$ei-colors: (
+  ei-black: #000,
+  ei-grey: #aeaeae,
+  ei-white: #fff,
+);
+
+/* get all brand colours */
+@each $prop, $val in $ei-colors {
+  .#{$prop} {
+    font-size: $val;
+  }
+}
+
+
+
+
 @media (max-width: $xs-devicies-max) {
 }
 
@@ -29,6 +64,10 @@ $xl-devices-min: 1200px;
 @media (min-width: $xl-devices-min) {
 }
 
+
+h3 {
+	color: green;
+}
 
 
 
