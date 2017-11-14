@@ -38,3 +38,20 @@ body {
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
+/* way of naming blocks, elements and modifiers in a self contained block */
+.block-class-name {
+  list-style: none; }
+  .block-class-name_element {
+    font-size: 15px; }
+  .block-class-name--modifier {
+    color: green; }
+
+/* nested elements within the nav tag */
+nav ul {
+  /* style goes here */ }
+
+nav li {
+  /* style goes here */ }
+
+nav a {
+  /* style goes here */ }

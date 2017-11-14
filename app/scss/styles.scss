@@ -67,6 +67,35 @@ $ei-colors: (
 @media (min-width: $xl-devices-min) {
 }
 
+/* way of naming blocks, elements and modifiers in a self contained block */
+.block-class-name {
+  list-style: none;
+
+  &_element {
+    font-size: 15px;
+  }
+
+  &--modifier {
+    color: green;
+  }
+
+}
+
+
+/* nested elements within the nav tag */
+nav {
+  ul {
+    /* style goes here */
+  }
+
+  li { 
+    /* style goes here */
+  }
+
+  a {
+    /* style goes here */
+  }
+}
 
 
 
