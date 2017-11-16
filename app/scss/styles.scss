@@ -9,7 +9,6 @@ $xl-devices-min: 1200px;
 
 $bodyPadding: 10px;
 
-
 body {
 	padding: $bodyPadding;
 }
@@ -46,6 +45,37 @@ $ei-colors: (
   }
 }
 
+
+/* way of naming blocks, elements and modifiers in a self contained block */
+.block-class-name {
+list-style: none;
+
+&_element {
+  font-size: 15px;
+}
+
+&--modifier {
+  color: green;
+}
+}
+
+
+/* nested elements within the nav tag */
+nav {
+  ul {
+    /* style goes here */
+  }
+
+  li { 
+    /* style goes here */
+  }
+
+  a {
+    /* style goes here */
+  }
+}
+
+
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: $xs-devicies-max) {
@@ -66,36 +96,3 @@ $ei-colors: (
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: $xl-devices-min) {
 }
-
-/* way of naming blocks, elements and modifiers in a self contained block */
-.block-class-name {
-  list-style: none;
-
-  &_element {
-    font-size: 15px;
-  }
-
-  &--modifier {
-    color: green;
-  }
-
-}
-
-
-/* nested elements within the nav tag */
-nav {
-  ul {
-    /* style goes here */
-  }
-
-  li { 
-    /* style goes here */
-  }
-
-  a {
-    /* style goes here */
-  }
-}
-
-
-

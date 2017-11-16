@@ -32,12 +32,6 @@ body {
 .ei-white {
   color: #fff; }
 
-/* Bootstrap media queries */
-/* Extra small devices (portrait phones, less than 576px) */
-/* Small devices (landscape phones, 576px and up) */
-/* Medium devices (tablets, 768px and up) */
-/* Large devices (desktops, 992px and up) */
-/* Extra large devices (large desktops, 1200px and up) */
 /* way of naming blocks, elements and modifiers in a self contained block */
 .block-class-name {
   list-style: none; }
@@ -55,3 +49,10 @@ nav li {
 
 nav a {
   /* style goes here */ }
+
+/* Bootstrap media queries */
+/* Extra small devices (portrait phones, less than 576px) */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
