@@ -28,5 +28,5 @@ Run **npm install browser-sync --save-dev**
 
 ### Gulp Watch
 
-Run **gulp watch** in the terminal when developing. This runs browserSync, and watches for any changes to the SCSS and compiles it into regular CSS.
+Run **gulp watch** in the terminal when developing. This runs browserSync, and watches for any changes to the SCSS and compiles it into regular CSS, it also  watches for any changes to the es6 file and compiles it into regular js. 
 The browser will refresh to render the new view upon any saved change.
