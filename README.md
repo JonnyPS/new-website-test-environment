@@ -4,6 +4,7 @@
 
 - Uses gulp to:
   - Compile SCSS and dumps CSS into its own folder
+  - Compile ES6 JS and dumps ES5 JS into its own folder - uses Babel
   - Reload browsers on save using BrowserSync
 - Uses Bootstrap for a responsive framework
 
@@ -20,6 +21,8 @@ You may have to install the following to ensure that it works correctly.
 Run **npm install**
 
 Run **npm install gulp-sass --save-dev**
+
+Run **npm install --save-dev gulp-babel babel-preset-env**
 
 Run **npm install browser-sync --save-dev**
 
