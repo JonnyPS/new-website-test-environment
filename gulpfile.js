@@ -20,15 +20,14 @@ gulp.task('compile-js', () => {
         .pipe(gulp.dest('app/js'))
 });
 
-
 // compiles scss files into css and dumps them into the css folder
 gulp.task('sass', function() {
   return gulp.src('app/scss/**/*.scss') // Gets all files ending with .scss in app/scss
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
+    // .pipe(browserSync.reload({
+    //   stream: true
+    // }))
 });
 
 // inits browserSync
@@ -42,10 +41,12 @@ gulp.task('browserSync', function() {
 
 // 'watches' html, scss and js files, and uses browserSync to reload page when any files are saved
 gulp.task('watch', ['browserSync'], function (){
+  // compile scss and es6
   gulp.watch('app/scss/**/*.scss', ['sass']); 
   gulp.watch('app/es6/**/*.js', ['compile-js']); 
-  // Other watchers
+  // reload browser
   gulp.watch('app/*.html').on('change', browserSync.reload);
+  gulp.watch('app/css/**/*.css').on('change', browserSync.reload);
   gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 })
 
