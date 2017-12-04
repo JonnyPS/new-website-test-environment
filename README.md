@@ -24,7 +24,7 @@ Run **npm install gulp-sass --save-dev**
 
 Run **npm install --save-dev gulp-babel babel-preset-env**
 
-Run ** npm install babel-core babel-loader --save-dev**
+Run **npm install babel-core babel-loader --save-dev**
 
 Run **npm install browser-sync --save-dev**
 
