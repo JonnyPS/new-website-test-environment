@@ -1,3 +1,4 @@
+
 var demo = document.getElementById('demo');
 
 var myFunc = (text, el) => { el.innerHTML = text};
