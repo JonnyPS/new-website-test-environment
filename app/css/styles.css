@@ -46,7 +46,12 @@ body {
   padding: 0; }
 
 .container-fluid {
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
+
+.row {
+  margin: 0;
+  padding: 0 10px; }
 
 /* end of modifying bootstraps defaults */
 body, form {
@@ -59,6 +64,16 @@ body, form {
 
 .grey-background {
   background-color: grey; }
+
+.two-col-text {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; }
+
+.three-col-text {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; }
 
 .button-container {
   width: 20%;
@@ -79,6 +94,9 @@ body, form {
   position: absolute;
   width: 100%;
   height: 100%; }
+
+.grey {
+  background-color: #e5e5e5; }
 
 .rectangle {
   position: relative;
@@ -153,6 +171,15 @@ nav a {
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .butoon-container {
+    width: 100% !important;
+    left: 0; }
+  .square, .rectangle {
+    width: 30%;
+    float: left;
+    height: 40px; } }
+
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
