@@ -1,3 +1,6 @@
+@import 'modules/colours';
+
+
 $xs-devicies-max: 575px;
 $small-devices-min: 576px;
 $small-devices-max: 767px;
@@ -28,20 +31,6 @@ $headlines: (
 @each $prop, $val in $headlines {
   .#{$prop} {
     font-size: $val;
-  }
-}
-
-/* set all brand colours */
-$ei-colors: (
-  ei-black: #000,
-  ei-grey: #aeaeae,
-  ei-white: #fff,
-);
-
-/* get all brand colours */
-@each $prop, $val in $ei-colors {
-  .#{$prop} {
-    color: $val;
   }
 }
 
@@ -216,8 +205,15 @@ body, form {
 
 
 
-
-
+/*  .is-table-row {
+    display: table;
+  }*/
+  .is-table-row [class*="col-"] {
+    /*float: none;*/
+    /*display: table-cell;*/
+    /*vertical-align: top;*/
+    background: green;
+  }
 
 
 

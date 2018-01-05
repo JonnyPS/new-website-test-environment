@@ -1,0 +1,13 @@
+/* set all brand colours */
+$ei-colors: (
+  ei-black: #000,
+  ei-grey: #aeaeae,
+  ei-white: #fff,
+);
+
+/* get all brand colours */
+@each $prop, $val in $ei-colors {
+  .#{$prop} {
+    color: $val;
+  }
+}
