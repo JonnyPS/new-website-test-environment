@@ -1,0 +1,5 @@
+@mixin text-cols($col-num) {
+	-webkit-column-count: $col-num;
+	-moz-column-count: $col-num;
+	column-count: $col-num;
+}

@@ -1,0 +1,73 @@
+@import 'modules/grids';
+@import 'modules/colours';
+@import 'modules/mixins';
+@import 'modules/typography';
+
+$xs-devicies-max: 575px;
+$small-devices-min: 576px;
+$small-devices-max: 767px;
+$medium-devices-min: 768px;
+$medium-devices-max: 991px;
+$large-devices-min: 992px;
+$large-devices-max: 1199px;
+$xl-devices-min: 1200px;
+
+
+/* way of naming blocks, elements and modifiers in a self contained block */
+.block-class-name {
+list-style: none;
+  &_element {
+    font-size: 15px;
+  }
+  &--modifier {
+    color: green;
+  }
+}
+
+body, form {
+  margin:0;
+  padding:0;
+}
+
+.form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.grey-background {
+   background-color: grey;
+}
+
+.two-col-text {
+	@include text-cols(2); 
+}
+
+.three-col-text {
+	@include text-cols(3); 
+}
+
+
+
+/* Bootstrap media queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: $xs-devicies-max) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: $small-devices-min) and (max-width: $small-devices-max) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: $medium-devices-min) and (max-width: $medium-devices-max) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: $large-devices-min) and (max-width: $large-devices-max) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: $xl-devices-min) {
+}
+
+
+

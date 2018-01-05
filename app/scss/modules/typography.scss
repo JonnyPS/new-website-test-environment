@@ -1,0 +1,16 @@
+/* set all headline sizes */
+$headlines: (
+  h1: 75px,
+  h2: 30px,
+  h3: 25px,
+  h4: 20px,
+  h5: 15px,
+  h6: 10px
+);
+
+/* get all headline sizes */
+@each $prop, $val in $headlines {
+  .#{$prop} {
+    font-size: $val;
+  }
+}

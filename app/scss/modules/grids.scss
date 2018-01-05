@@ -1,0 +1,15 @@
+/* modifying bootstraps defaults */ 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+  padding: 0;
+}
+
+.container-fluid {
+  padding:0;
+  margin:0;
+}
+
+.row {
+	margin:0;
+	padding: 0 10px;
+}
+/* end of modifying bootstraps defaults */
