@@ -1,0 +1,21 @@
+/* adding to, or overriding base styles for cards */
+
+.card {
+	background-color: #eeeeee;
+	border: 0px solid;
+	border-radius: 0;
+	margin-left:5px !important;
+	margin-right:5px !important;
+ }
+
+ .card-img-top {
+ 	border-radius: 0;
+ }
+
+ .card-title, .card-text {
+ 	margin: 10px;
+ }
+
+ .card-text:last-child {
+ 	margin-bottom: 10px;
+ }
