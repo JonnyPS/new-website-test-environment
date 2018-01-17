@@ -80,9 +80,17 @@
 .card--light-background {
   background-color: #fff; }
 
-.container-fluid__inner-container {
+/*.container-fluid__inner-container {
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
+*/
+.container-fluid--inner-container {
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.container-fluid--light-background {
+  background-color: white; }
 
 /* way of naming blocks, elements and modifiers in a self contained block */
 /*.block-class-name {
