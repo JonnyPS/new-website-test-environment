@@ -11,3 +11,17 @@ $ei-colors: (
     color: $val;
   }
 }
+
+$background-color: #eeeeee;
+
+.background {
+	background-color: $background-color;
+}
+
+.background__innerContainer {
+	background-color: #fff;
+}
+
+.container-border--placeholder {
+	border-left: 5px solid #565656;
+}

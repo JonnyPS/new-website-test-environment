@@ -12,6 +12,12 @@
 	margin:0;
 	padding: 0 10px;
 }*/
+/*
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+*/
 /* end of modifying bootstraps defaults */
 /* set all brand colours */
 /* get all brand colours */
@@ -23,6 +29,15 @@
 
 .ei-white {
   color: #fff; }
+
+.background {
+  background-color: #eeeeee; }
+
+.background__innerContainer {
+  background-color: #fff; }
+
+.container-border--placeholder {
+  border-left: 5px solid #565656; }
 
 /* set all headline sizes */
 /* get all headline sizes */
@@ -61,6 +76,13 @@
 
 .card-text:last-child {
   margin-bottom: 10px; }
+
+.card--light-background {
+  background-color: #fff; }
+
+.container-fluid__inner-container {
+  padding-left: 15px;
+  padding-right: 15px; }
 
 /* way of naming blocks, elements and modifiers in a self contained block */
 /*.block-class-name {

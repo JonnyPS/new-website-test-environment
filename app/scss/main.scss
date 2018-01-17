@@ -13,8 +13,10 @@ $large-devices-min: 992px;
 $large-devices-max: 1199px;
 $xl-devices-min: 1200px;
 
-
-
+.container-fluid__inner-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* way of naming blocks, elements and modifiers in a self contained block */
 /*.block-class-name {
