@@ -87,6 +87,9 @@
 .container-fluid--light-background {
   background-color: white; }
 
+.container-fluid--light-background {
+  background-color: #eee; }
+
 /* way of naming blocks, elements and modifiers in a self contained block */
 /*.block-class-name {
 list-style: none;
