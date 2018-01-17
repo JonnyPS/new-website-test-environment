@@ -76,6 +76,10 @@ body, form {
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: $xs-devicies-max) {
+  .container-fluid--sm-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
 }
 

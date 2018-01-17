@@ -135,6 +135,11 @@ body, form {
 
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .container-fluid--sm-padding {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
   .breakpoint-active-sm {
