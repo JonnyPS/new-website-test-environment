@@ -80,11 +80,6 @@
 .card--light-background {
   background-color: #fff; }
 
-/*.container-fluid__inner-container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-*/
 .container-fluid--inner-container {
   padding-right: 20px;
   padding-left: 20px; }
@@ -111,19 +106,17 @@ body, form {
 .form {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.grey-background {
-   background-color: grey;
-}
-
+}*/
 .two-col-text {
-	@include text-cols(2); 
-}
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; }
 
 .three-col-text {
-	@include text-cols(3); 
-}*/
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; }
+
 .breakpoint-active-sm {
   display: none; }
 

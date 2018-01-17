@@ -13,11 +13,6 @@ $large-devices-min: 992px;
 $large-devices-max: 1199px;
 $xl-devices-min: 1200px;
 
-/*.container-fluid__inner-container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-*/
 
 .container-fluid--inner-container {
   padding-right: 20px;
@@ -47,11 +42,7 @@ body, form {
 .form {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.grey-background {
-   background-color: grey;
-}
+}*/
 
 .two-col-text {
 	@include text-cols(2); 
@@ -59,7 +50,7 @@ body, form {
 
 .three-col-text {
 	@include text-cols(3); 
-}*/
+}
 
 .breakpoint-active-sm {
   display: none;
