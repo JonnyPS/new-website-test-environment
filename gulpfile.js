@@ -8,15 +8,6 @@ var sass = require('gulp-sass');
 // includes browsersync
 var browserSync = require('browser-sync').create();
 
-// enables us to move files using a gulp task
-var dest = require('gulp-dest');
-
-gulp.task('movetodist', function() {
-  // gulp.src(['app/css/main.css'])
-  //   .pipe(dest())
-  //   .pipe(gulp.dest('dist/css/'))
-});
-
 // compiles scss files into css and dumps them into the css folder
 gulp.task('sass', function() {
   return gulp.src('app/scss/*.scss') // Gets all files ending with .scss in app/scss

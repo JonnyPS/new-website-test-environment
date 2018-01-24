@@ -87,6 +87,35 @@
 .card-text__cta {
   color: #868e96 !important; }
 
+.card-img-left {
+  float: left;
+  width: 50%; }
+
+.card-img-right {
+  float: right;
+  width: 50%; }
+
+.card-block--right {
+  float: right;
+  width: 50%; }
+
+.card-block--left {
+  float: left;
+  width: 50%; }
+
+/* enables image and text div to sit side by side */
+/* To be used on the six column grid - image on side layout */
+.card--row {
+  flex-direction: row !important; }
+
+/*.card-img-side {
+	width:100%;
+	float:left;
+}
+*/
+/*.card-block--right-text {
+	padding-left:0;
+}*/
 .innerContainerWrapper {
   padding-right: 20px;
   padding-left: 20px; }

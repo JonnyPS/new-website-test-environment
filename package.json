@@ -22,7 +22,6 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "gulp-dest": "^0.2.3"
+    "bootstrap": "^3.3.7"
   }
 }
