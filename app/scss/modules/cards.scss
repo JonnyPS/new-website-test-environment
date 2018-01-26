@@ -67,3 +67,33 @@
 /*.card-block--right-text {
 	padding-left:0;
 }*/
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex:1 0 0%;
+}
+
+.flex-child {
+	background-color: #fff;
+	padding:20px;
+	border: black solid 1px;
+	width:50%;
+}
+
+/*.card-img-side {
+	width: 50%;
+}
+*/
+.card--side {
+	flex-direction: row !important;
+}
+
+.side-img-container {
+	width:70%;
+}
+
+.side-img-container img {
+	width:100%;
+}
