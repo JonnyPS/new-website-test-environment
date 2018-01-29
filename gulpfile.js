@@ -23,8 +23,9 @@ gulp.task('browserSync', function() {
   browserSync.init({
     server: {
       baseDir: 'app',
-        proxy: 'dev.site.com', // 'dev.site.com' in your example
-        port: 5000
+        // proxy: 'dev.site.com', // 'dev.site.com' in your example
+        port: 5000,
+        browser: ["google chrome", "firefox"]
       },
     // },
   })
