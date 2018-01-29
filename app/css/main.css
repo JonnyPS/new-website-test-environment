@@ -207,6 +207,10 @@ body, form {
 .breakpoint-active-xl {
   display: none; }
 
+.breakit {
+  display: block;
+  /*width: 100px;*/ }
+
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
@@ -222,7 +226,9 @@ body, form {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .breakpoint-active-md-lg {
-    display: block; } }
+    display: block; }
+  .breakit {
+    display: none; } }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {

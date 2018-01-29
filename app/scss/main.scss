@@ -78,6 +78,11 @@ body, form {
   display: none;
 }
 
+
+  .breakit {
+    display: block;
+    /*width: 100px;*/
+  }
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: $xs-devicies-max) {
@@ -85,6 +90,8 @@ body, form {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+
 
 }
 
@@ -99,6 +106,10 @@ body, form {
 @media (min-width: $medium-devices-min) and (max-width: $medium-devices-max) {
   .breakpoint-active-md-lg {
     display: block;
+  }
+
+  .breakit {
+    display: none;
   }
 }
 
