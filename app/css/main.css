@@ -152,6 +152,9 @@
   margin-left: 0;
   background-color: #fff; }
 
+.card-img-side {
+  min-width: 200px; }
+
 .innerContainerWrapper {
   padding-right: 20px;
   padding-left: 20px; }
@@ -207,10 +210,13 @@ body, form {
 .breakpoint-active-xl {
   display: none; }
 
-.breakit {
-  display: block;
-  /*width: 100px;*/ }
+.breakpoint-active-md--side-card {
+  display: block; }
 
+/*  .breakit {
+    display: block;
+    /*width: 100px;*/
+/*}*/
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
@@ -226,19 +232,24 @@ body, form {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .breakpoint-active-md-lg {
-    display: block; }
-  .breakit {
-    display: none; } }
+    display: block; } }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .breakpoint-active-md-lg {
-    display: block; } }
+    display: block; }
+  .breakpoint-active-md-lg-xl--side-card {
+    display: none !important; }
+  /*  .breakit {
+    display: none;
+  }*/ }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .breakpoint-active-xl {
-    display: block; } }
+    display: block; }
+  .breakpoint-active-md-lg-xl--side-card {
+    display: none !important; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: theSerif Plain;

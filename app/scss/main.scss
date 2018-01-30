@@ -78,11 +78,17 @@ body, form {
   display: none;
 }
 
+.breakpoint-active-md--side-card {
+  display: block;
+}
 
-  .breakit {
+
+/*  .breakit {
     display: block;
     /*width: 100px;*/
-  }
+  /*}*/
+
+
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: $xs-devicies-max) {
@@ -107,10 +113,6 @@ body, form {
   .breakpoint-active-md-lg {
     display: block;
   }
-
-  .breakit {
-    display: none;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -118,6 +120,13 @@ body, form {
   .breakpoint-active-md-lg {
     display: block;
   }
+
+  .breakpoint-active-md-lg-xl--side-card {
+    display: none !important;
+  }
+  /*  .breakit {
+    display: none;
+  }*/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -125,9 +134,10 @@ body, form {
   .breakpoint-active-xl {
     display: block;
   }
+    .breakpoint-active-md-lg-xl--side-card {
+    display: none !important;
+  }
 }
-
-
 
 
 
