@@ -34,6 +34,16 @@
 
 
 @font-face {
-	font-family: "Frutiger Light Condensed";
+	font-family: "Frutiger";
 	src: url("fonts/FTLC.ttf");
+}
+
+@font-face {
+	font-family: "Frutiger Bold";
+	src: url("fonts/FTB.ttf");
+}
+
+@font-face {
+	font-family: "Frutiger Black";
+	src: url("fonts/FTUBL.ttf");
 }

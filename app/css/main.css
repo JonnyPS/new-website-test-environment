@@ -313,6 +313,15 @@ body, form {
 .black-Italic-header {
   font-family: theSerif Black Italic; }
 
+.normal-body-copy {
+  font-family: frutiger; }
+
+.bold-body-copy {
+  font-family: frutiger Bold; }
+
+.black-body-copy {
+  font-family: frutiger Black; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: theSerif, serif;
   /*font-weight: bold;*/ }

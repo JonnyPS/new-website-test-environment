@@ -146,6 +146,10 @@ $theSerif-Bold: theSerif Extra Bold;
 $theSerif-BoldItalic: theSerif Extra Bold Italic;
 $theSerif-BlackItalic: theSerif Black Italic;
 
+$frutiger: frutiger;
+$frutigerBold: frutiger Bold;
+$frutigerBlack: frutiger Black;
+
 
 .extra-light-italic-header {
   font-family: $theSerif-ExtraLightItalic;
@@ -171,6 +175,18 @@ $theSerif-BlackItalic: theSerif Black Italic;
   font-family: $theSerif-BlackItalic;  
 }
 
+
+.normal-body-copy {
+  font-family: $frutiger;
+}
+
+.bold-body-copy {
+  font-family: $frutigerBold;
+}
+
+.black-body-copy {
+  font-family: $frutigerBlack;
+}
 
 
 h1, h2, h3, h4, h5, h6 {
