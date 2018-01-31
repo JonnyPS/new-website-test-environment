@@ -295,6 +295,24 @@ body, form {
   .breakpoint-active-md-lg-xl--side-card {
     display: none !important; } }
 
+.extra-light-italic-header {
+  font-family: theSerif Extra Light Italic; }
+
+.light-header {
+  font-family: theSerif Light; }
+
+.normal-header {
+  font-family: theSerif; }
+
+.bold-header {
+  font-family: theSerif Extra Bold; }
+
+.bold-italic-header {
+  font-family: theSerif Extra Bold Italic; }
+
+.black-Italic-header {
+  font-family: theSerif Black Italic; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: theSerif, serif;
   /*font-weight: bold;*/ }
