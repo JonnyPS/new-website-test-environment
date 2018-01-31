@@ -1,7 +1,36 @@
+
 @font-face {
-	font-family: "theSerif Plain";
+	font-family: "theSerif Extra Light Italic";
+	src: url("fonts/TheSerifExtraLight.ttf");
+}
+
+@font-face {
+	font-family: "theSerif Light";
+	src: url("fonts/TheSerifLight.ttf");
+}
+
+@font-face {
+	font-family: "theSerif";
 	src: url("fonts/TheSerif Plain.ttf");
 }
+
+@font-face {
+	font-family: "theSerif Extra Bold";
+	src: url("fonts/TheSerifExtraBold-Plain.otf");
+}
+
+@font-face {
+	font-family: "theSerif Extra Bold Italic";
+	src: url("fonts/TheSerifExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "theSerif Black Italic";
+	src: url("fonts/TheSerifBlack.ttf");
+}
+
+
+
 
 
 @font-face {

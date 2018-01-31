@@ -296,8 +296,8 @@ body, form {
     display: none !important; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: theSerif Plain, serif;
-  font-weight: bold; }
+  font-family: theSerif, serif;
+  /*font-weight: bold;*/ }
 
 p {
   font-family: Frutiger Light Condensed, sans-serif;
