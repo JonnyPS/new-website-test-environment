@@ -72,9 +72,37 @@
 .card-img-top {
   border-radius: 0; }
 
-.card-title, .card-text {
+.card-title, .card-text, .card-title__event {
   margin: 10px; }
 
+.card-text__date {
+  /*position: absolute;*/
+  margin: 10px 10px 0 10px;
+  /*bottom: 0;*/
+  font-weight: bold; }
+
+.bottom {
+  height: 70px;
+  position: absolute;
+  bottom: 0; }
+
+.card-block__edit {
+  position: relative;
+  padding-bottom: 50px; }
+
+/*.card-footer {
+	position: absolute;
+	bottom:0;
+}*/
+.card-text__date__cta {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  margin-top: 0; }
+
+/*.card-title__event {
+    min-height: 150px;
+}
+*/
 .card-text:last-child {
   margin-bottom: 10px; }
 
@@ -155,6 +183,21 @@
 .card-img-side {
   min-width: 200px; }
 
+.card-group {
+  display: flex;
+  width: 100%; }
+
+.card-block {
+  flex: 1 1 auto; }
+
+.card-text__events {
+  padding-bottom: 50px; }
+
+.card-footer__events {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
 .innerContainerWrapper {
   padding-right: 20px;
   padding-left: 20px; }
@@ -213,10 +256,11 @@ body, form {
 .breakpoint-active-md--side-card {
   display: block; }
 
-/*  .breakit {
-    display: block;
-    /*width: 100px;*/
-/*}*/
+.side-img-container {
+  width: 100%;
+  height: 250px;
+  display: block; }
+
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
@@ -252,10 +296,15 @@ body, form {
     display: none !important; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: theSerif Plain;
+  font-family: theSerif Plain, serif;
   font-weight: bold; }
 
 p {
-  font-family: Frutiger Light Condensed;
+  font-family: Frutiger Light Condensed, sans-serif;
   font-size: 1.2rem;
   line-height: 1.4; }
+
+.bg-image {
+  background-image: url("https://dummyimage.com/300x300/000/fff.png");
+  background-size: cover;
+  background-position: center; }
