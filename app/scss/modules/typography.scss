@@ -1,3 +1,13 @@
+$theSerif-ExtraLightItalic: theSerif Extra Light Italic;
+$theSerif-Light: theSerif Light;
+$theSerif: theSerif;
+$theSerif-Bold: theSerif Extra Bold;
+$theSerif-BoldItalic: theSerif Extra Bold Italic;
+$theSerif-BlackItalic: theSerif Black Italic;
+$frutiger: frutiger;
+$frutigerBold: frutiger Bold;
+$frutigerBlack: frutiger Black;
+
 /* set all headline sizes */
 $headlines: (
   h1: 75px,
@@ -14,3 +24,24 @@ $headlines: (
     font-size: $val;
   }
 }
+
+/*set all fonts */
+$fonts: (
+	extra-light-italic-header: $theSerif-ExtraLightItalic,
+	light-header: $theSerif-Light,
+	normal-header: $theSerif,
+	bold-header: $theSerif-Bold,
+	bold-italic-header: $theSerif-BoldItalic,
+	black-Italic-header: $theSerif-BlackItalic,
+	normal-body-copy: $frutiger,
+	bold-body-copy: $frutigerBold,
+	black-body-copy: $frutigerBlack
+);
+
+/* get all fonts */
+@each $prop, $val in $fonts {
+  .#{$prop} {
+    font-family: $val;
+  }
+}
+

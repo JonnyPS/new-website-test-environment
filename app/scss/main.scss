@@ -139,54 +139,6 @@ body, form {
   }
 }
 
-$theSerif-ExtraLightItalic: theSerif Extra Light Italic;
-$theSerif-Light: theSerif Light;
-$theSerif: theSerif;
-$theSerif-Bold: theSerif Extra Bold;
-$theSerif-BoldItalic: theSerif Extra Bold Italic;
-$theSerif-BlackItalic: theSerif Black Italic;
-
-$frutiger: frutiger;
-$frutigerBold: frutiger Bold;
-$frutigerBlack: frutiger Black;
-
-
-.extra-light-italic-header {
-  font-family: $theSerif-ExtraLightItalic;
-}
-
-.light-header {
-  font-family: $theSerif-Light;
-}
-
-.normal-header {
-  font-family: $theSerif;  
-}
-
-.bold-header {
-  font-family: $theSerif-Bold;  
-}
-
-.bold-italic-header {
-  font-family: $theSerif-BoldItalic;  
-}
-
-.black-Italic-header {
-  font-family: $theSerif-BlackItalic;  
-}
-
-
-.normal-body-copy {
-  font-family: $frutiger;
-}
-
-.bold-body-copy {
-  font-family: $frutigerBold;
-}
-
-.black-body-copy {
-  font-family: $frutigerBlack;
-}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -206,4 +158,6 @@ p {
   background-position: center;
 }
 
-
+.no-margin {
+  margin-bottom: 0;
+}

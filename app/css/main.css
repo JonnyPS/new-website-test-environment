@@ -60,6 +60,35 @@
 .h6 {
   font-size: 10px; }
 
+/*set all fonts */
+/* get all fonts */
+.extra-light-italic-header {
+  font-family: theSerif Extra Light Italic; }
+
+.light-header {
+  font-family: theSerif Light; }
+
+.normal-header {
+  font-family: theSerif; }
+
+.bold-header {
+  font-family: theSerif Extra Bold; }
+
+.bold-italic-header {
+  font-family: theSerif Extra Bold Italic; }
+
+.black-Italic-header {
+  font-family: theSerif Black Italic; }
+
+.normal-body-copy {
+  font-family: frutiger; }
+
+.bold-body-copy {
+  font-family: frutiger Bold; }
+
+.black-body-copy {
+  font-family: frutiger Black; }
+
 /* adding to, or overriding base styles for cards */
 .card {
   background-color: #eeeeee;
@@ -72,13 +101,11 @@
 .card-img-top {
   border-radius: 0; }
 
-.card-title, .card-text, .card-title__event {
+.card-title, .card-text, .card-title__events {
   margin: 10px; }
 
 .card-text__date {
-  /*position: absolute;*/
   margin: 10px 10px 0 10px;
-  /*bottom: 0;*/
   font-weight: bold; }
 
 .bottom {
@@ -86,23 +113,16 @@
   position: absolute;
   bottom: 0; }
 
+.card-title__events {
+  padding-bottom: 50px; }
+
 .card-block__edit {
   position: relative;
   padding-bottom: 50px; }
 
-/*.card-footer {
-	position: absolute;
-	bottom:0;
-}*/
 .card-text__date__cta {
-  /*position: absolute;*/
-  /*bottom: 0;*/
   margin-top: 0; }
 
-/*.card-title__event {
-    min-height: 150px;
-}
-*/
 .card-text:last-child {
   margin-bottom: 10px; }
 
@@ -136,14 +156,6 @@
 .card--row {
   flex-direction: row !important; }
 
-/*.card-img-side {
-	width:100%;
-	float:left;
-}
-*/
-/*.card-block--right-text {
-	padding-left:0;
-}*/
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -155,10 +167,6 @@
   border: black solid 1px;
   width: 50%; }
 
-/*.card-img-side {
-	width: 50%;
-}
-*/
 .card--side {
   flex-direction: row !important; }
 
@@ -168,12 +176,6 @@
 .side-img-container img {
   width: 100%; }
 
-/*.card-img-bottom {
-  color: #fff;
-  height: 20rem;
-  background: url("//placehold.it/500x280") center no-repeat;
-  background-size: cover;
-}*/
 .testCol {
   padding-right: 15px;
   padding-left: 0;
@@ -196,7 +198,12 @@
 .card-footer__events {
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  padding: 0 10px;
+  border: 0; }
+
+.card-footer--lightBg {
+  background-color: #fff; }
 
 .innerContainerWrapper {
   padding-right: 20px;
@@ -295,33 +302,6 @@ body, form {
   .breakpoint-active-md-lg-xl--side-card {
     display: none !important; } }
 
-.extra-light-italic-header {
-  font-family: theSerif Extra Light Italic; }
-
-.light-header {
-  font-family: theSerif Light; }
-
-.normal-header {
-  font-family: theSerif; }
-
-.bold-header {
-  font-family: theSerif Extra Bold; }
-
-.bold-italic-header {
-  font-family: theSerif Extra Bold Italic; }
-
-.black-Italic-header {
-  font-family: theSerif Black Italic; }
-
-.normal-body-copy {
-  font-family: frutiger; }
-
-.bold-body-copy {
-  font-family: frutiger Bold; }
-
-.black-body-copy {
-  font-family: frutiger Black; }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: theSerif, serif;
   /*font-weight: bold;*/ }
@@ -335,3 +315,6 @@ p {
   background-image: url("https://dummyimage.com/300x300/000/fff.png");
   background-size: cover;
   background-position: center; }
+
+.no-margin {
+  margin-bottom: 0; }
