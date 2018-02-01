@@ -1,5 +1,4 @@
 /* adding to, or overriding base styles for cards */
-
 .card {
 	background-color: #eeeeee;
 	border: 0px solid;
@@ -29,7 +28,7 @@
 }
 
 .card-title__events {
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 }
 
 .card-block__edit {
@@ -54,27 +53,7 @@
 }
 
 .card-text__cta {
-	color: #868e96!important;
-}
-
-.card-img-left {
- 	float:left;
- 	width: 50%;
- }
-
- .card-img-right {
- 	float:right;
- 	width: 50%;
- }
-
-.card-block--right {
-	float:right;
-	width:50%;
-}
-
-.card-block--left {
-	float:left;
-	width:50%;
+	color: #000 !important;
 }
 
 /* enables image and text div to sit side by side */
@@ -108,18 +87,6 @@
 	width:100%;
 }
 
-.testCol {
-    padding-right:  15px;
-    padding-left: 0;
-    margin-left: 0;
-    background-color:  #fff;
-
-}
-
-.card-img-side {
-	min-width: 200px;
-}
-
 .card-group {
 	display: flex;
 	width: 100%;
@@ -127,11 +94,6 @@
 
 .card-block {
 	flex: 1 1 auto;
-}
-
-.card-text__events {
-    padding-bottom: 50px;
-
 }
 
 .card-footer__events {

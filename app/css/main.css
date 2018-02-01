@@ -40,26 +40,6 @@
 .container-border--placeholder {
   border-left: 5px solid #565656; }
 
-/* set all headline sizes */
-/* get all headline sizes */
-.h1 {
-  font-size: 75px; }
-
-.h2 {
-  font-size: 30px; }
-
-.h3 {
-  font-size: 25px; }
-
-.h4 {
-  font-size: 20px; }
-
-.h5 {
-  font-size: 15px; }
-
-.h6 {
-  font-size: 10px; }
-
 /*set all fonts */
 /* get all fonts */
 .extra-light-italic-header {
@@ -89,6 +69,26 @@
 .black-body-copy {
   font-family: frutiger Black; }
 
+/* set all headline sizes */
+/* get all headline sizes */
+.h1 {
+  font-size: 75px; }
+
+.h2 {
+  font-size: 30px; }
+
+.h3 {
+  font-size: 25px; }
+
+.h4 {
+  font-size: 20px; }
+
+.h5 {
+  font-size: 15px; }
+
+.h6 {
+  font-size: 10px; }
+
 /* adding to, or overriding base styles for cards */
 .card {
   background-color: #eeeeee;
@@ -114,7 +114,7 @@
   bottom: 0; }
 
 .card-title__events {
-  padding-bottom: 50px; }
+  padding-bottom: 70px; }
 
 .card-block__edit {
   position: relative;
@@ -133,23 +133,7 @@
   background-color: #f4f4f4; }
 
 .card-text__cta {
-  color: #868e96 !important; }
-
-.card-img-left {
-  float: left;
-  width: 50%; }
-
-.card-img-right {
-  float: right;
-  width: 50%; }
-
-.card-block--right {
-  float: right;
-  width: 50%; }
-
-.card-block--left {
-  float: left;
-  width: 50%; }
+  color: #000 !important; }
 
 /* enables image and text div to sit side by side */
 /* To be used on the six column grid - image on side layout */
@@ -176,24 +160,12 @@
 .side-img-container img {
   width: 100%; }
 
-.testCol {
-  padding-right: 15px;
-  padding-left: 0;
-  margin-left: 0;
-  background-color: #fff; }
-
-.card-img-side {
-  min-width: 200px; }
-
 .card-group {
   display: flex;
   width: 100%; }
 
 .card-block {
   flex: 1 1 auto; }
-
-.card-text__events {
-  padding-bottom: 50px; }
 
 .card-footer__events {
   position: absolute;
@@ -226,26 +198,6 @@
 .innerContainer--border {
   border-left: 5px solid #565656; }
 
-/* way of naming blocks, elements and modifiers in a self contained block */
-/*.block-class-name {
-list-style: none;
-  &_element {
-    font-size: 15px;
-  }
-  &--modifier {
-    color: green;
-  }
-}
-
-body, form {
-  margin:0;
-  padding:0;
-}
-
-.form {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}*/
 .two-col-text {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -307,10 +259,7 @@ body, form {
   .side-img-container {
     width: 100%;
     height: 250px;
-    display: block; }
-  /*  .breakit {
-    display: none;
-  }*/ }
+    display: block; } }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -324,8 +273,7 @@ body, form {
     display: block; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: theSerif, serif;
-  /*font-weight: bold;*/ }
+  font-family: theSerif, serif; }
 
 p {
   font-family: Frutiger Light Condensed, sans-serif;
