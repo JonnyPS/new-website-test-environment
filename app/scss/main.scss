@@ -64,6 +64,36 @@ $xl-devices-min: 1200px;
   display: none;
 }
 
+.header-container {
+  position: relative;
+  display: inline-block;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.button-container {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 85%;
+  width:20%;
+}
+
+.button-container__button {
+    width:100%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+
 /* Bootstrap media queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: $xs-devicies-max) {
@@ -84,6 +114,8 @@ $xl-devices-min: 1200px;
     height: 250px;
     display: block;
   }
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
