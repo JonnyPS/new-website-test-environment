@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: "theSerif Light";
-	src: url("fonts/TheSerifLight-Plain.otf");
+	src: url("fonts/TheSerifLight.ttf");
 }
 
 @font-face {
@@ -28,9 +28,6 @@
 	font-family: "theSerif Black Italic";
 	src: url("fonts/TheSerifBlack.ttf");
 }
-
-
-
 
 
 @font-face {
