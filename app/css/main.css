@@ -202,9 +202,9 @@
 .breakpoint-active-sm {
   display: none; }
 
-.breakpoint-active-md-lg {
-  display: none; }
-
+/*.breakpoint-active-md-lg {
+  display: none;
+}*/
 .breakpoint-active-md {
   display: none; }
 
@@ -291,9 +291,10 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .breakpoint-active-lg {
-    display: none; }
-  .breakpoint-active-xl {
     display: block; }
+  /*  .breakpoint-active-xl {
+    display: block;
+  }*/
   .breakpoint-active-md-lg-xl--side-card {
     display: none !important; }
   .side-img-container {
@@ -319,7 +320,8 @@ p {
 
 /* Bootstrap basic editions */
 a {
-  color: #231f58; }
+  color: #231f58;
+  text-decoration: underline; }
 
 /* Alerts */
 .alert-success {

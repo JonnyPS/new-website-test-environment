@@ -46,9 +46,9 @@ $xl-devices-min: 1200px;
   display: none;
 }
 
-.breakpoint-active-md-lg {
+/*.breakpoint-active-md-lg {
   display: none;
-}
+}*/
 
 .breakpoint-active-md {
   display: none;
@@ -167,12 +167,12 @@ $xl-devices-min: 1200px;
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: $xl-devices-min) {
   .breakpoint-active-lg {
-    display: none;
-  }
-
-  .breakpoint-active-xl {
     display: block;
   }
+
+/*  .breakpoint-active-xl {
+    display: block;
+  }*/
     .breakpoint-active-md-lg-xl--side-card {
     display: none !important;
   }
