@@ -1,1119 +1,720 @@
-<html>
-	<head>
-		<!-- bootstrap-4.0.0-beta.2-dist CSS - will need to replace CDN for Static file when live -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/main.css">	
-
-		<!-- JQuery, JS and PopperJS CDN's, we will replace these with physical link before going live -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-		
-	</head>
-	<body class="background">
-        <div class="container-fluid">  
-            <!-- this will eventually be the nav bar -->	
-        	<div class="row grey-background">
-        		<div class="col-xs-10 col-sm-6 col-xl-6 mx-auto">
-        			<form class="form">
-        				<input class="form-control" type="text" placeholder="Search">
-        			</form>
-        		</div>
-        	</div>
-        	<!-- intro text options -->
-        	<div class="row grey">
-        		<div class="col-xl-12">
-                    <!-- One Column Text Row -->
-    				<h1>Intro example - One Column grid - sourcetree example edit</h1>
-    				<p>Overunt recierei patusti enicte dius, C. Firium vissolti cultore, nit C. Sp. Simissim que condiem tantes iam hosteribus in nonequem morit iam in senducturnia nontem, ditum aus es? Ad publinc rendam addum tere etod C. Bultorbefac renatus At C. Me me que potam ditea me con habera, ute nos prit dii ina, furnum in issentem molussat, noniu eferibu ssignonsimus M. confentio, nos cerit; nos fue hostra iam omanulest conum moret gracchi, ne tem imum, nonsus cre nius, publinum ommolut publius vicior probseniciae quidi, ures se, verfes audelicato iam senterem inpra, quam orae tus siliquo C. Vivaste manum pra verti crum ocam is scem ego cons hore consultum converr imunum detorios inprac res Maequon voltum manterit opte, que consula tissidiis, C. Seris
-    				</p>
-    				<h1>Intro example - Two Column grid</h1>
-                    <!-- Two Column Text Row -->
-    				<p class="two-col-text">Overunt recierei patusti enicte dius, C. Firium vissolti cultore, nit C. Sp. Simissim que condiem tantes iam hosteribus in nonequem morit iam in senducturnia nontem, ditum aus es? Ad publinc rendam addum tere etod C. Bultorbefac renatus At C. Me me que potam ditea me con habera, ute nos prit dii ina, furnum in issentem molussat, noniu eferibu ssignonsimus M. confentio, nos cerit; nos fue hostra iam omanulest conum moret gracchi, ne tem imum, nonsus cre nius, publinum ommolut publius vicior probseniciae quidi, ures se, verfes audelicato iam senterem inpra, quam orae tus siliquo C. Vivaste manum pra verti crum ocam is scem ego cons hore consultum converr imunum detorios inprac res Maequon voltum manterit opte, que consula tissidiis, C. Seris
-    				</p>
-    				<h1>Intro example - Three Column grid</h1>
-                    <!-- Three Column Text Row -->
-    				<p class="three-col-text">Overunt recierei patusti enicte dius, C. Firium vissolti cultore, nit C. Sp. Simissim que condiem tantes iam hosteribus in nonequem morit iam in senducturnia nontem, ditum aus es? Ad publinc rendam addum tere etod C. Bultorbefac renatus At C. Me me que potam ditea me con habera, ute nos prit dii ina, furnum in issentem molussat, noniu eferibu ssignonsimus M. confentio, nos cerit; nos fue hostra iam omanulest conum moret gracchi, ne tem imum, nonsus cre nius, publinum ommolut publius vicior probseniciae quidi, ures se, verfes audelicato iam senterem inpra, quam orae tus siliquo C. Vivaste manum pra verti crum ocam is scem ego cons hore consultum converr imunum detorios inprac res Maequon voltum manterit opte, que consula tissidiis, C. Seris
-    				</p>
-        		</div>
-        	</div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- two column row - cards without images -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Two Column Grid</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">3 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">4 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-               
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">5 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">6 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">7 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">8 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-            
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">9 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">10 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">11 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">12 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- two column grid - cards without images - inner container -->
-        <div class="container-fluid innerContainerWrapper">
-           <div class="container-fluid innerContainer innerContainer--lightBg innerContainer--border">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Two Column Grid - inner container</h1>
-                    </div>
-                </div>
-                <div class="container-fluid container-fluid--sm-padding">
-                    <div class="card-deck">
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">2 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">3 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">4 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">5 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">6 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">7 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">8 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">9 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">10 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">11 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">12 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->        
-
-        <!-- Three column grid - cards with images -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Three Column Grid</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">3 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">4 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                 
-                    <div class="w-100 breakpoint-active-sm"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">5 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">6 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">7 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">8 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">9 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">10 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">11 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">12 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Three column grid - cards with images - inner container -->
-        <div class="container-fluid innerContainerWrapper">
-            <div class="container-fluid innerContainer innerContainer--lightBg innerContainer--border">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Three Column Grid - inner container</h1>
-                    </div>
-                </div>
-                <div class="container-fluid container-fluid--sm-padding">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">2 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">3 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">4 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                     
-                        <div class="w-100 breakpoint-active-sm"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">5 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">6 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">7 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">8 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">9 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">10 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">11 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">12 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Four column grid - cards with images -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Four Column Grid</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">3 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">4 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                 
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">5 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">6 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">7 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">8 Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">9 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-md-lg"></div>
-                    <div class="w-100 breakpoint-active-xl"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">10 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-
-                    <div class="w-100 breakpoint-active-sm"></div>
-
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">11 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">12 Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Four column grid - cards with images - inner container -->
-        <div class="container-fluid innerContainerWrapper">
-            <div class="container-fluid innerContainer innerContainer--lightBg innerContainer--border">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Four Column Grid - inner container</h1>
-                    </div>
-                </div>
-                <div class="container-fluid container-fluid--sm-padding">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">2 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">3 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">4 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                     
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">5 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">6 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">7 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">8 Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">9 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-md-lg"></div>
-                        <div class="w-100 breakpoint-active-xl"></div>
-                        
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">10 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-
-                        <div class="w-100 breakpoint-active-sm"></div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">11 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">12 Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- six column row - cards without images -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Six Column Grid</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                            Atiaepe et verum eveBerepere velis dolor renda nesto eum quod essiti commoluptur aut hitasit aut de nesto eum quodItion comnima aut andam es excest rerro velit, ut eum, eum vollaccus mo velendi tibus.Dissitati dolorio diostecaeLum vendissectum que nemolup tatior aut mo mincto dolorepel inumquiatur, cus, et aute vide por re volut lam volorio. Et facearcil iusam, te parum id quaerum qui ipitatur abo. Ecero odit, ipis autem quist, a quibusci conserrore ratur auta volorpos si que int quas</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                            Atiaepe et verum eveBerepere velis dolor renda nesto eum quod essiti commoluptur aut hitasit aut de nesto eum quodItion comnima aut andam es excest rerro velit, ut eum, eum vollaccus mo velendi tibus.Dissitati dolorio diostecaeLum vendissectum que nemolup tatior aut mo mincto dolorepel inumquiatur, cus, et aute vide por re volut lam volorio. Et facearcil iusam, te parum id quaerum qui ipitatur abo. Ecero odit, ipis autem quist, a quibusci conserrore ratur auta volorpos si que int quas</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Six column grid - cards without images - inner container -->
-        <div class="container-fluid innerContainerWrapper">
-           <div class="container-fluid innerContainer innerContainer--lightBg innerContainer--border">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Two Column Grid - inner container</h1>
-                    </div>
-                </div>
-                <div class="container-fluid container-fluid--sm-padding">
-                    <div class="card-deck">
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                Atiaepe et verum eveBerepere velis dolor renda nesto eum quod essiti commoluptur aut hitasit aut de nesto eum quodItion comnima aut andam es excest rerro velit, ut eum, eum vollaccus mo velendi tibus.Dissitati dolorio diostecaeLum vendissectum que nemolup tatior aut mo mincto dolorepel inumquiatur, cus, et aute vide por re volut lam volorio. Et facearcil iusam, te parum id quaerum qui ipitatur abo. Ecero odit, ipis autem quist, a quibusci conserrore ratur auta volorpos si que int quas</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-block">
-                                <h4 class="card-title">2 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                Atiaepe et verum eveBerepere velis dolor renda nesto eum quod essiti commoluptur aut hitasit aut de nesto eum quodItion comnima aut andam es excest rerro velit, ut eum, eum vollaccus mo velendi tibus.Dissitati dolorio diostecaeLum vendissectum que nemolup tatior aut mo mincto dolorepel inumquiatur, cus, et aute vide por re volut lam volorio. Et facearcil iusam, te parum id quaerum qui ipitatur abo. Ecero odit, ipis autem quist, a quibusci conserrore ratur auta volorpos si que int quas</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>      
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Six column grid - cards with images -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Six Column Grid</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--lightBg">
-                        <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Six column grid - cards with images - inner container -->
-        <div class="container-fluid innerContainerWrapper">
-            <div class="container-fluid innerContainer innerContainer--lightBg innerContainer--border">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Six Column Grid - inner container</h1>
-                    </div>
-                </div>
-                <div class="container-fluid container-fluid--sm-padding">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="//placehold.it/500x280" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">2 Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text card-text__cta">Read more &raquo;</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-        <!-- Six column grid - image on side -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Six Column Grid - image on side</h1>
-                </div>
-            </div>
-            <div class="container-fluid container-fluid--sm-padding">
-                <div class="card-deck">
-            
-                    <div class="card card--row card--lightBg">
-                        <div class="card-img-left-container">
-                            <img class="card-img-left img-fluid" src="https://dummyimage.com/300x300/000/fff.png" alt="Card image cap">
-                        </div>
-                        <div class="card-block--right">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--row card--lightBg">
-                        <img class="card-img-top img-fluid" src="https://dummyimage.com/300x300/000/fff.pn"gpmqs alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Six column grid - image on side -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Six Column Grid - image on side</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-
-                <div class="row">
-                    <div class="">
-                        <div class="row card--lightBg">
-                            <div class="">
-                                <img class="card-img-side" src="https://dummyimage.com/300x300/000/fff.png" alt="Card image cap">
-                            </div>
-                            <div class="card-block--right-text">
-                                <div class="card-block">
-                                    <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                                    <p class="card-text">This is a card with supporting text as a lead-in to additional content.</p>
-                                    <p class="card-text card-text__cta">Read more &raquo;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img class="card-img-side" src="https://dummyimage.com/300x300/000/fff.png" alt="Card image cap">
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="card-block">
-                                    <h4 class="card-title">1 Card title</h4>
-                                    <p class="card-text">This is a card with supporting text below as a natural lead-in to additional content.</p>
-                                    <p class="card-text card-text__cta">Read more &raquo;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-<!--                      <div class="card card--row card--lightBg">
-                        <div class="card-img-left-container">
-                            <img class="card-img-left img-fluid" src="https://dummyimage.com/300x300/000/fff.png" alt="Card image cap">
-                        </div>
-                        <div class="card-block--right">
-                            <h4 class="card-title">1 Card title<br>1 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div>
-                    <div class="card card--row card--lightBg">
-                        <img class="card-img-top img-fluid" src="https://dummyimage.com/300x300/000/fff.pn"gpmqs alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">2 Card title</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text card-text__cta">Read more &raquo;</p>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-
-        <!-- placeholder for spacing only -->
-        <div class="row" style="height:50px;">
-            <div class="col-sm-12">
-            </div>
-        </div>
-        <!-- end of placeholder -->
-
-		<!-- js goes here after the DOM has loaded -->
-		<script src="js/script.js"></script>
-	
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Library widgets</title>
+        <!-- bootstrap-4.0.0-beta.2-dist CSS - will need to replace CDN for Static file when live -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css"> 
+        <link rel="stylesheet" type="text/css" href="css/main.css"> 
+
+        <!-- JQuery, JS and PopperJS CDN's, we will replace these with physical link before going live -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+    </head>
+
+<body>
+
+    <!-- Start your project here-->
+<div class="col-sm-12">
+
+                <h1>Alerts</h1>
+                    
+               <div class="alert alert-success" role="alert">
+  <strong>Well done!</strong> You successfully read this important alert message.
+</div>
+<div class="alert alert-info" role="alert">
+  <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</div>
+<div class="alert alert-warning" role="alert">
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+<div class="alert alert-danger" role="alert">
+  <strong>Oh snap!</strong> Change a few things up and try submitting again.
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>Holy guacamole!</strong> I'M EXACTLY LIKE THE OTHER ONES, BUT YOU CAN CLOSE ME :D
+</div>
+
+
+</div>
+
+<BR>
+
+<div class="col-sm-12">
+
+                <h1>Badges</h1>
+
+
+<h1>Example heading <span class="badge badge-default">New</span></h1>
+<h2>Example heading <span class="badge badge-primary">New</span></h2>
+<h3>Example heading <span class="badge badge-success">New</span></h3>
+<h4>Example heading <span class="badge badge-info">New</span></h4>
+<h5>Example heading <span class="badge badge-warning">New</span></h5>
+<h6>Example heading <span class="badge badge-danger">New</span></h6>
+
+
+<span class="badge badge-default">Default</span>
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-danger">Danger</span>
+
+</div>
+
+<BR>
+
+<div class="col-sm-12">
+
+                <h1>Breadcrumbs</h1>
+
+    <ol class="breadcrumb">
+  <li class="breadcrumb-item active">Home</li>
+</ol>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item active">Library</li>
+</ol>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Library</a></li>
+  <li class="breadcrumb-item active">Data</li>
+</ol>
+    
+
+
+
+
+</div>
+
+
+<BR>
+
+<div class="col-sm-12">
+
+                <h1>Buttons</h1>
+
+
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Secondary, outline button -->
+<button type="button" class="btn btn-secondary">Secondary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
+
+
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+
+
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+Small button 
+
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+
+<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+
+<h1>Checkbox</h1>
+
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="checkbox" checked autocomplete="off"> Checkbox 1 (pre-checked)
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox" autocomplete="off"> Checkbox 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox" autocomplete="off"> Checkbox 3
+  </label>
+</div>
+
+
+<BR>
+
+
+
+<h1>Radio</h1>
+
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+  </label>
+</div>
+
+
+
+<div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+<div class="btn-group" role="group" aria-label="...">...</div>
+<div class="btn-group btn-group-sm" role="group" aria-label="...">...</div>
+
+
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-secondary">1</button>
+  <button type="button" class="btn btn-secondary">2</button>
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-secondary">1</button>
+  <button type="button" class="btn btn-secondary">2</button>
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+<BR>
+
+<div class="col-sm-12">
+
+<h1>Cards</h1>
+
+
+
+
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-pills card-header-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Special title treatment</h4>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Special title treatment</h4>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Special title treatment</h4>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_161622f859b%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_161622f859b%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.7984375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+
+<BR>
+
+<div class="col-sm-12">
+
+                <h1>Carousel</h1>
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_161622f859b%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_161622f859b%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.7984375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_161622f859b%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_161622f859b%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.7984375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_161622f859b%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_161622f859b%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.7984375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+
+<BR>
+
+    <div class="col-sm-12">
+
+                <h1>Collapse</h1>
+
+
+                <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+
+
+<div id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+<BR>
+
+
+    <div class="col-sm-12">
+
+                <h1>Dropwdown</h1>
+
+
+                <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+<BR>
+
+
+    <div class="col-sm-12">
+
+                <h1>Forms</h1>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect1">Example select</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleTextarea">Example textarea</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  </div>
+  <fieldset class="form-group">
+    <legend>Radio buttons</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+  </fieldset>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+<div class="container">
+  <form>
+    <div class="form-group row has-success">
+      <label for="inputHorizontalSuccess" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="name@example.com">
+        <div class="form-control-feedback">Success! You've done it.</div>
+        <small class="form-text text-muted">Example help text that remains unchanged.</small>
+      </div>
+    </div>
+    <div class="form-group row has-warning">
+      <label for="inputHorizontalWarning" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control form-control-warning" id="inputHorizontalWarning" placeholder="name@example.com">
+        <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+        <small class="form-text text-muted">Example help text that remains unchanged.</small>
+      </div>
+    </div>
+    <div class="form-group row has-danger">
+      <label for="inputHorizontalDnger" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control form-control-danger" id="inputHorizontalDnger" placeholder="name@example.com">
+        <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+        <small class="form-text text-muted">Example help text that remains unchanged.</small>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+</div>
+
+
+
+
+<BR>
+
+    <div class="col-sm-12">
+
+                <h1>Pop ups</h1>
+
+                <!-- Button trigger modal -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Large modal -->
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+
+
+<p> Call it with JS $('#myModal').modal(options)
+</p>
+
+</div>
+
+
+
+
+<BR>
+
+
+    <div class="col-sm-12">
+
+                <h1>Paginations</h1>
+
+  <nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active">
+      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>              
+</div>
+
+
+
+
+
+
+
+
+
+
+<BR>
+
+    <div class="col-sm-12">
+
+                <h1>Progress</h1>
+
+                <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+    
+    <!-- /Start your project here-->
+
+
+</body>
+
 </html>
-
-
-
-
