@@ -1,9 +1,19 @@
 /* set all brand colours */
-$ei-colors: (
-  ei-black: #000,
-  ei-grey: #aeaeae,
-  ei-white: #fff,
-);
+
+  $ei-green: #92c848;
+  $ei-blue: #231f58;
+  $ei-orange: #f37021;
+  $ei-lightblue: #00a0e4;
+  $ei-green: #92c848;
+  $ei-purple: #74489d;
+  $ei-red: #c40d42; 
+  $ei-black: #000;
+  $ei-grey: #aeaeae;
+  $ei-white: #fff;
+
+  $ei-colors: (
+
+  );
 
 /* get all brand colours */
 @each $prop, $val in $ei-colors {
@@ -26,3 +36,5 @@ $background-color: #e9e9e9;
 .container-border--placeholder {
 	border-left: 5px solid #565656;
 }
+
+
